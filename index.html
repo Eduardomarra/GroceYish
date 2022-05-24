@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/styles.css">
+    <title>Groce Yish Website</title>
+</head>
+<body>
+
+    <header>
+        <div class="container top-bar">
+            <div class="wrapper-header-top">
+                <div class="wrapper-logo">
+                    <img src="./assets/img-header/logo-groceyish.svg" alt="Logo Groce Yish">
+                    <div class="text-logo">
+                        <h1>Groceyish</h1>
+                        <span>grocery</span>
+                    </div>
+                </div>
+                <div class="wrapper-search">
+                    <select name="categories">
+                        <option value="categories" selected>All Categories</option>
+                        <option value="valor1">Valor 1</option>
+                        <option value="valor2">Valor 2</option>
+                        <option value="valor3">Valor 3</option>
+                        <option value="valor4">Valor 4</option>
+                        <option value="valor5">Valor 5</option>
+                        <option value="valor6">Valor 6</option>
+                    </select>
+                    <input type="text" name="search" id="search" autocomplete="off" placeholder="Search for items...">
+                    <button>
+                        <img src="./assets/img-header/header-icons/li_search.svg" alt="Lupa botão pesquisar">
+                    </button>
+                </div>
+                <div class="wrapper-cart">
+                    <div class="favorites">
+                        <div class="wrapper-favorites">
+                            <div class="img-favorites">
+                                <img src="./assets/img-header/header-icons/li_heart.svg" alt="Produtos favoritados">
+                                <span class="fovorites-items">4</span>
+                            </div>
+                        </div>
+                        <h3>Wishlist</h3>
+                    </div>
+                    <div class="my-cart active">
+                        <div class="wrapper-cart">
+                            <div class="img-cart">
+                                <img src="./assets/img-header/header-icons/li_shopping-cart.svg" alt="Carrinho de compras">
+                                <span>1</span>
+                            </div>
+                        </div>
+                        <div class="wrapper-text-cart">
+                            <h3>My Cart</h3>
+                            <h4>$21</h4>
+                        </div>
+                        <div class="open-cart">
+                            <img class="chevron-down" src="./assets/img-header/header-icons/li_chevron-down.svg" alt="Seta abrir carrinho de compra">
+                            <div class="list-cart"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="wrapper-user">
+                    <div class="img-user">
+                        <img src="./assets/img-header/user-login.svg" alt="Foto usuário">
+                    </div>
+                    <h3>Eduardo Marra</h3>
+                    <img  class="chevron-down" src="./assets/img-header/header-icons/li_chevron-down.svg" alt="Seta abrir perfil do usuário">
+                </div>
+            </div>
+        </div>
+        <div class="container"></div>
+    </header>
+    
+    <script src="./js/script.js" type="module"></script>
+</body>
+</html>
