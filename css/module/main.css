@@ -1,0 +1,91 @@
+section.main {
+    width: 100%;
+    position: relative;
+}
+.container-main {
+    max-width: 1200px;
+    height: 47rem;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.amazing h1 {
+    font-weight: 700;
+    font-size: var(--font-huge);
+    line-height: var(--line-huge);
+    letter-spacing: -0.01em;
+    color: var(--blue-300);
+}
+.amazing h3 {
+    font-weight: 500;
+    font-size: var(--font-large);
+    line-height: var(--line-large);
+    letter-spacing: -0.01em;
+    color: var(--gray-500);
+    margin-top: 3rem;
+}
+.form-main {
+    margin: 5rem 0;
+    display: flex;
+    align-items: center;
+    position: relative;
+    width: 40rem;
+}
+.form-main input {
+    font-family: var(--quicksand);
+    font-size: var(--font-medium);
+    line-height: var(--line-medium);
+    border: none;
+    outline: none;
+    width: 100%;
+    padding: 1.4rem;
+}
+.form-main input::placeholder {
+    font-weight: 500;
+    font-family: var(--quicksand);
+    font-size: var(--font-medium);
+    line-height: var(--line-medium);
+    transition: all 0.3s;
+    margin-left: 2rem;
+}
+.form-main input:focus::placeholder {
+    opacity: 0;
+}
+.form-main button {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    align-items: center;
+    padding: 1.4rem;
+    background: var(--base-green);
+    font-weight: 600;
+    font-size: var(--font-medium);
+    line-height: var(--line-medium);
+    color: var(--white);
+    font-family: var(--quicksand);
+    transition: all 0.3s;
+}
+.form-main button:hover {
+    filter: brightness(0.9);
+}
+.image-main {
+    height: 100%;
+    position: absolute;
+    right: 0;
+}
+.bg-main {
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    background-image: url("../../assets/img-main/bg-main.svg");
+}
+.glass {
+    background: var(--green-bg-opacity);
+    width: 100%;
+    height: 100%;
+}

@@ -57,6 +57,9 @@
     cursor: pointer;
 }
 .wrapper-search input {
+    font-size: var(--font-xsmall);
+    line-height: var(--line-xsmall);
+    font-family: var(--quicksand);
     background: transparent;
     border: none;
     outline: none;
@@ -67,8 +70,8 @@
     font-weight: 500;
     font-size: var(--font-xsmall);
     line-height: var(--line-xsmall);
-    color: var(--gray);
     font-family: var(--quicksand);
+    color: var(--gray);
     transition: all 0.3s;
 }
 .wrapper-search input:focus::placeholder {
