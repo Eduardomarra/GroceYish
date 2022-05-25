@@ -1,0 +1,51 @@
+@media screen and (max-width: 1030px) {
+    .wrapper-header-bottom {
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+    .nav-links {
+        gap: 1.4rem;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .wrapper-header-bottom button span {
+        display: none;
+    }
+    .nav-links {
+        gap: 1rem;
+    }
+    .links a {
+        
+        font-size: var(--font-xsmall);
+        line-height: var(--line-xsmall);
+       
+    }
+    .number-phone .phone h3 {
+        font-size: var(--font-xsmall);
+        line-height: var(--line-xsmall);
+    }
+    .support{
+        display: none;
+    }
+}
+
+@media screen and (max-width: 655px) {
+    .number-phone {
+        display: none;
+     }
+}
+
+@media screen and (max-width: 414px) {
+    .nav-links {
+        gap: 0.5rem;
+    }
+    .links a {
+        flex-direction: column;
+        font-size: 0.6rem;
+        line-height:1rem;
+    }
+    .number-phone {
+       display: none;
+    }
+}
