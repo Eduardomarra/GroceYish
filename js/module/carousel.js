@@ -27,7 +27,7 @@ export default function Carousel() {
   let baseSliderWidth = slider.offsetWidth;
   let activeIndex = 0; // the current page on the slider
 
-  let movies = [
+  let categories = [
     {
       src: "../../assets/img-categories/image-3.svg",
     },
@@ -53,11 +53,11 @@ export default function Carousel() {
     }
   ];
 
-  // Fill the slider with all the movies in the "movies" array
+  // Fill the slider with all the categories in the "categories" array
   function populateSlider() {
-    movies.forEach((image) => {
-      // Clone the initial movie thats included in the html, then replace the image with a different one
-      const newMovie = document.getElementById("movie0");
+    categories.forEach((image) => {
+      // Clone the initial categories thats included in the html, then replace the image with a different one
+      const newMovie = document.getElementById("categorie0");
       let clone = newMovie.cloneNode(true);
       let img = clone.querySelector("img");
       img.src = image.src;
@@ -72,16 +72,16 @@ export default function Carousel() {
   populateSlider();
   populateSlider();
 
-  // delete the initial movie in the html
-  const initialMovie = document.getElementById("movie0");
+  // delete the initial categories in the html
+  const initialMovie = document.getElementById("categorie0");
   initialMovie.remove();
 
   // Scroll Left button
   btnLeft.addEventListener("click", (e) => {
-    let movieWidth = document
-      .querySelector(".movie")
+    let categorieWidth = document
+      .querySelector(".categories")
       .getBoundingClientRect().width;
-    let scrollDistance = movieWidth * 6; // Scroll the length of 6 movies. TODO: make work for mobile because (4 movies/page instead of 6)
+    let scrollDistance = categorieWidth * 1; // Scroll the length of 6 categories. TODO: make work for mobile because (4 categories/page instead of 6)
 
     slider.scrollBy({
       top: 0,
@@ -94,9 +94,9 @@ export default function Carousel() {
   // Scroll Right button
   btnRight.addEventListener("click", (e) => {
     let movieWidth = document
-      .querySelector(".movie")
+      .querySelector(".categories")
       .getBoundingClientRect().width;
-    let scrollDistance = movieWidth * 6; // Scroll the length of 6 movies. TODO: make work for mobile because (4 movies/page instead of 6)
+    let scrollDistance = movieWidth * 1; // Scroll the length of 6 categories. TODO: make work for mobile because (4 categories/page instead of 6)
 
     // if we're on the last page
     if (activeIndex == 2) {
