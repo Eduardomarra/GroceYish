@@ -89,8 +89,6 @@ export default function Carousel() {
       behavior: "smooth",
     });
     activeIndex = (activeIndex - 1) % 3;
-    console.log(activeIndex);
-    updateIndicators(activeIndex);
   });
 
   // Scroll Right button
