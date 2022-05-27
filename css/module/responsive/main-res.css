@@ -31,11 +31,11 @@
         padding-top: 2rem;
     }
     .amazing h1 {
-        font-size: var(--font-large);
-        line-height: var(--line-large);
+        font-size: var(--font-intermedium);
+        line-height: var(--line-intermedium);
     }
     .amazing h3 {
-        font-size: var(--font-sxmall);
+        font-size: var(--font-xsmall);
         line-height: var(--line-xsmall);
     }
     .image-main {
