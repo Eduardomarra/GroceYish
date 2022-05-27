@@ -59,10 +59,10 @@
 
 /*
 *
-* MOVIE ELEMENTS!
+* categories ELEMENTS!
 *
 *********************************/
-.movie {
+.categories {
     width: 15.5rem;
     height: 20rem;
     display: flex;
@@ -77,29 +77,29 @@
     background: var(--yellow-bg-opacity);
     transition: all 0.5s ease;
 }
-.movie:first-child {
+.categories:first-child {
     margin-left: 1rem;
 }
-.movie:hover {
+.categories:hover {
     transform: scale(1.1);
 }
-.movie a {
+.categories a {
     cursor: pointer;
     text-decoration: none;
 }
-.movie img {
+.categories img {
     object-fit: cover;
     height: 10rem;
     width: 10rem;
     border-radius: 10px;
 }
-.movie h2 {
+.categories h2 {
     font-weight: 600;
     font-size: var(--font-large);
     line-height: var(--line-large);
     color: var(--blue-300);
 }
-.movie h4 {
+.categories h4 {
     font-weight: 500;
     font-size: var(--font-xsmall);
     line-height: var(--line-xsmall);

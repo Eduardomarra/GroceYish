@@ -37,6 +37,9 @@
 }
 
 @media screen and (max-width: 414px) {
+    .wrapper-header-bottom {
+        padding-top: 0px;
+    }
     .nav-links {
         gap: 0.5rem;
     }

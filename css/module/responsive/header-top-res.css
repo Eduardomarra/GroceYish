@@ -75,6 +75,9 @@
 }
 
 @media screen and (max-width: 600px) {
+    .container.top-bar {
+        padding: 0px;
+    }
     .wrapper-search {
         display: none;
     }

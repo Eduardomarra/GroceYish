@@ -1,5 +1,6 @@
 .container.top-bar{
-    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
     padding: 1.6rem 0;
 }
 .wrapper-header-top {
@@ -14,7 +15,7 @@
 .wrapper-logo {
     display: flex;
     align-items: center;
-    justify-content: flex-start;
+    justify-content: space-between;
 }
 .wrapper-logo img {
     width: 4rem;
@@ -139,6 +140,7 @@
     width: 1.5rem;
     height: 1.5rem;
     z-index: 2;
+    font-size: 0.8rem;
     text-align: center;
     color: var(--white);
     background: var(--base-green);
