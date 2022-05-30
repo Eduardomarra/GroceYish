@@ -1,92 +1,102 @@
 [
     {
         "categorie": "Vegetable",
-        "name": "redish",
+        "name": "Redish",
         "weight": "500g",
         "proprietary": "Mr.Food",
-        "price": 3.99,
-        "promotion": 2,
-        "src": "../assets/img-categories/image-3.svg"
+        "price": "3.99",
+        "promotion": "2",
+        "src": "../assets/img-featured/redish.svg",
+        "alt": "foto produto "
     },
     {
         "categorie": "Vegetable",
         "name": "Potato",
         "weight": "1kg",
         "proprietary": "Mr.Food",
-        "price": 1.99,
-        "promotion": 1,
-        "src": "../assets/img-categories/image-3.svg"
+        "price": "1.99",
+        "promotion": "1",
+        "src": "../assets/img-featured/potatos.svg",
+        "alt": "foto produto "
     },
     {
         "categorie": "Fruits",
         "name": "Tomatos",
         "weight": "200g",
         "proprietary": "Mr.Food",
-        "price": 0.99,
-        "promotion": 0.30,
-        "src": "../assets/img-categories/image-3.svg"
+        "price": "0.99",
+        "promotion": "0.30",
+        "src": "../assets/img-featured/tomatos.svg",
+        "alt": "foto produto "
     },
     {
         "categorie": "Vegetable",
         "name": "Braccoli",
         "weight": "1kg",
         "proprietary": "Mr.Food",
-        "price": 2.99,
-        "promotion": 1.50,
-        "src": "../assets/img-categories/image-3.svg"
+        "price": "2.99",
+        "promotion": "1.50",
+        "src": "../assets/img-featured/broccoli.svg",
+        "alt": "foto produto "
     },
     {
         "categorie": "Vegetable",
         "name": "Green Beans",
         "weight": "250g",
         "proprietary": "Mr.Food",
-        "price": 1.99,
-        "promotion": 1,
-        "src": "../assets/img-categories/image-3.svg"
+        "price": "1.99",
+        "promotion": "1",
+        "src": "../assets/img-featured/green-beans.svg",
+        "alt": "foto produto "
     },
     {
         "categorie": "Vegetable",
-        "name": "redish",
+        "name": "Redish",
         "weight": "500g",
         "proprietary": "Mr.Food",
-        "price": 3.99,
-        "promotion": 2,
-        "src": "../assets/img-categories/image-3.svg"
+        "price": "3.99",
+        "promotion": "2",
+        "src": "../assets/img-featured/redish.svg",
+        "alt": "foto produto "
     },
     {
         "categorie": "Vegetable",
         "name": "Potato",
         "weight": "1kg",
         "proprietary": "Mr.Food",
-        "price": 1.99,
-        "promotion": 1,
-        "src": "../assets/img-categories/image-3.svg"
+        "price": "1.99",
+        "promotion": "1",
+        "src": "../assets/img-featured/potatos.svg",
+        "alt": "foto produto "
     },
     {
         "categorie": "Fruits",
         "name": "Tomatos",
         "weight": "200g",
         "proprietary": "Mr.Food",
-        "price": 0.99,
-        "promotion": 0.30,
-        "src": "../assets/img-categories/image-3.svg"
+        "price": "0.99",
+        "promotion": "0.30",
+        "src": "../assets/img-featured/tomatos.svg",
+        "alt": "foto produto "
     },
     {
         "categorie": "Vegetable",
         "name": "Braccoli",
         "weight": "1kg",
         "proprietary": "Mr.Food",
-        "price": 2.99,
-        "promotion": 1.50,
-        "src": "../assets/img-categories/image-3.svg"
+        "price": "2.99",
+        "promotion": "1.51",
+        "src": "../assets/img-featured/broccoli.svg",
+        "alt": "foto produto "
     },
     {
         "categorie": "Vegetable",
         "name": "Green Beans",
         "weight": "250g",
         "proprietary": "Mr.Food",
-        "price": 1.99,
-        "promotion": 1,
-        "src": "../assets/img-categories/image-3.svg"
+        "price": "1.99",
+        "promotion": "1",
+        "src": "../assets/img-featured/green-beans.svg",
+        "alt": "foto produto "
     }
 ]

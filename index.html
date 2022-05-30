@@ -137,10 +137,10 @@
         </div>
     </section>
 
-    <section class="carrousel">
-        <div class="title">
+    <section class="carrousel-categories">
+        <div class="title-categories">
             <h1>Explore categories</h1>
-            <div class="title-categories">
+            <div class="btn-categories">
                 <button class="active">All</button>
                 <button>Vegetables</button>
                 <button>Fruits</button>
@@ -148,20 +148,76 @@
                 <button>Meat</button>
             </div>
         </div>
-        <div class="container-carrousel">
-            <button type="button" id="moveLeftCategorie" class="btn-nav">
+        <div class="container-categories-carrousel">
+            <button type="button" id="moveLeftCategorie" class="btn-nav-categories">
                 <i class="fa fa-arrow-left" aria-hidden="true"></i>
             </button>
-            <div class="slider" id="mySlider">
+            <div class="slider-categories" id="mySlider">
                 <div class="categories" id="categorie">
                    
                 </div>
             </div>
-            <button type="button" id="moveRightCategorie" class="btn-nav">
+            <button type="button" id="moveRightCategorie" class="btn-nav-categories">
                 <i class="fa fa-arrow-right" aria-hidden="true"></i>
             </button>
         </div>
     </section>   
+
+    <section class="carrousel-featured">
+        <div class="title-featured">
+            <h1>Featured products</h1>
+            <div class="btn-featured">
+                <button class="active">All</button>
+                <button>Vegetables</button>
+                <button>Fruits</button>
+                <button>Coffe & teas</button>
+                <button>Meat</button>
+            </div>
+        </div>
+        <div class="container-featured-carrousel">
+            <button type="button" id="moveLeftFeatured" class="btn-nav-featured">
+                <i class="fa fa-arrow-left" aria-hidden="true"></i>
+            </button>
+            <div class="slider-featured" id="mySlider">
+                <div class="featured" id="featured">
+                    <div class="card-product">
+                        <div class="img-featured">
+                            <img src="./assets/img-featured/redish.svg" alt="">
+                        </div>
+                        <div class="description">
+                            <div class="description-card">
+                                <div class="card-info">
+                                    <h4>Vegetable</h4>
+                                    <h3>Redish
+                                        <span>500g</span>
+                                    </h3>
+                                </div>
+                                <div class="card-rating">
+                                    <img src="./assets/img-featured/rating.svg" alt="">
+                                    <h4>By
+                                        <span>Mr.Food</span>
+                                    </h4>
+                                </div>
+                            </div>
+                            <div class="card-price">
+                                <div class="price">
+                                    <h3>$2</h3>
+                                    <h4>$3.99</h4>
+                                </div>
+                                <button>
+                                    <img src="./assets/img-featured/li_cart_price.svg" alt="">
+                                    Add
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <button type="button" id="moveRightFeatured" class="btn-nav-featured">
+                <i class="fa fa-arrow-right" aria-hidden="true"></i>
+            </button>
+        </div>
+    </section>  
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.js"
         integrity="sha512-n/4gHW3atM3QqRcbCn6ewmpxcLAHGaDjpEBu4xZd47N0W2oQ+6q7oc3PXstrJYXcbNU1OHdQ1T7pAP+gi5Yu8g=="
