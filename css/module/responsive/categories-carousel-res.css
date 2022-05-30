@@ -1,70 +1,70 @@
 @media screen and (max-width: 1024px) {
-    .title, .container-carrousel {
+    .title-categories, .container-categories-carrousel {
         padding-left: 1rem;
         padding-right: 1rem;
     }
-    .slider {
+    .slider-categories {
         max-width: 85%;
         margin: 0 auto;
     }
-    #moveLeft {
+    #moveLeftCategories {
         left: 1%;
     }
     
-    #moveRight {
+    #moveRightCategories {
         right: 1%;
     }
 }
 
 @media screen and (max-width: 768px) {
-    .title h1 {
+    .title-categories h1 {
         font-size: var(--font-large);
         line-height: var(--line-large);
     
     }
-    .title .title-categories button {
+    .title-categories .btn-categories button {
         font-size: var(--font-xsmall);
         line-height: var(--line-xsmall);
     }
 }
 
 @media screen and (max-width: 414px) {
-    .title {
+    .title-categories {
         justify-content: center;
         flex-direction: column;
     }
-    .title h1 {
+    .title-categories h1 {
         font-size: var(--font-intermedium);
         line-height: var(--line-intermedium);
         margin-bottom: 2rem;
     
     }
-    .title-categories {
+    .btn-categories {
         display: flex;
         align-items: center;
         justify-content: space-between;
         gap: 2rem;
     }
-    .title .title-categories button {
+    .title-categories .btn-categories button {
         font-size: var(--font-xsmall);
         line-height: var(--line-xsmall);
         margin-left: 0px;
     }
-    .slider {
+    .slider-categories {
         max-width: auto;
         margin: 0 auto;
     }
-    .btn-nav {
+    .btn-nav-categories {
         top: 60%;
         transform: translateY(-60%);
     }
-    .btn-nav .fa-arrow-left, .btn-nav .fa-arrow-right {
+    .btn-nav-categories .fa-arrow-left, .btn-nav-categories .fa-arrow-right {
         font-size: 2rem;
     }
 }
 
 @media screen and (max-width: 375px) {
-    .movie {
+    .categories {
         width: 12rem;
         height: 18rem;
         padding: 1rem;
@@ -72,23 +72,23 @@
 }
 
 @media screen and (max-width: 320px) {
-    .title .title-categories button {
+    .title-categories .btn-categories button {
         font-size: var(--font-small);
         line-height: var(--line-small);
     }
-    .slider {
+    .slider-categories {
         gap: 1.5rem;
     }
-    .movie {
+    .categories {
         width: 11rem;
         height: 16rem;
         padding: 1rem;
     }
-    .btn-nav {
+    .btn-nav-categories {
         width: 3rem;
         height: 3rem;
     }
-    .btn-nav .fa-arrow-left, .btn-nav .fa-arrow-right {
+    .-categories .fa-arrow-left, .-categories .fa-arrow-right {
         font-size: 1.5rem;
     }
 }

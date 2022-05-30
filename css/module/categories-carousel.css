@@ -1,15 +1,15 @@
-.container-carrousel {
+.container-categories-carrousel {
     max-width: 1200px;
     margin: 0 auto;
 }
 
-.carrousel {
+.carrousel-categories {
     width: 100%;
     position: relative;
     padding: 5rem 0;
 }
 
-.title {
+.title-categories {
     max-width: 1200px;
     margin: 0 auto;
     display: flex;
@@ -17,14 +17,14 @@
     justify-content: space-between;
     padding-bottom: 3rem;
 }
-.title h1 {
+.title-categories h1 {
     font-weight: 600;
     font-size: var(--font-intermedium);
     line-height: var(--line-intermedium);
     color: var(--blue-300);
 
 }
-.title .title-categories button {
+.title-categories .btn-categories button {
     font-weight: 500;
     font-size: var(--font-medium);
     line-height: var(--line-medium);
@@ -32,7 +32,7 @@
     background: transparent;
     margin-left: 2rem;
 }
-.title .title-categories button.active {
+.title-categories .btn-categories button.active {
     color: var(--base-green);
 }
 
@@ -41,7 +41,7 @@
 * THE SLIDER CONTAINER
 *
 *********************************/
-.slider {
+.slider-categories {
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -51,8 +51,7 @@
     overflow-y: hidden;
     white-space: nowrap;
     position: relative;
-    padding-top: 2rem;
-    padding-bottom: 3rem;
+    padding: 2rem 0 3rem 0;
 }
 
 
@@ -111,7 +110,7 @@
 * BUTTONS
 *
 *********************************/
-.btn-nav {
+.btn-nav-categories {
     width: 4rem;
     height: 4rem;
     position: absolute;
@@ -122,11 +121,11 @@
     border-radius: 50%;
     z-index: 5;
 }
-.btn-nav .fa-arrow-left, .btn-nav .fa-arrow-right {
+.btn-nav-categories .fa-arrow-left, .btn-nav-categories .fa-arrow-right {
     color: var(--blue-300);
     font-size: 2.4rem;
 }
-.btn-nav .fa-arrow-left:hover, .btn-nav .fa-arrow-right:hover {
+.btn-nav-categories .fa-arrow-left:hover, .btn-nav-categories .fa-arrow-right:hover {
     transform: scale(1.2);
 }
 
