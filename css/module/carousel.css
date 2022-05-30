@@ -68,24 +68,24 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    flex-direction: column;
+    gap: 0.5rem;
     position: relative;
-    color: white;
-    font-size: 0.8rem;
-    text-align: center;
-    padding: 2rem;
-    background: var(--yellow-bg-opacity);
-    transition: all 0.5s ease;
 }
 .categories:first-child {
     margin-left: 1rem;
 }
-.categories:hover {
-    transform: scale(1.1);
-}
 .categories a {
+    color: white;
+    font-size: 0.8rem;
+    text-align: center;
+    padding: 2rem;
     cursor: pointer;
     text-decoration: none;
+    background: var(--yellow-bg-opacity);
+    transition: all 0.5s ease;
+}
+.categories a:hover {
+    transform: scale(1.1);
 }
 .categories img {
     object-fit: cover;
@@ -130,10 +130,10 @@
     transform: scale(1.2);
 }
 
-#moveLeft {
+#moveLeftCategorie {
     left: 5%;
 }
 
-#moveRight {
+#moveRightCategorie {
     right: 5%;
 }

@@ -21,60 +21,32 @@ export default function Carousel() {
   //fim navegação buttonLinks
 
   const slider = document.querySelector(".slider");
-  const btnLeft = document.getElementById("moveLeft");
-  const btnRight = document.getElementById("moveRight");
+  const btnLeft = document.getElementById("moveLeftCategorie");
+  const btnRight = document.getElementById("moveRightCategorie");
 
   let baseSliderWidth = slider.offsetWidth;
   let activeIndex = 0; // the current page on the slider
 
-  let categories = [
-    {
-      src: "../../assets/img-categories/image-3.svg",
-    },
-    {
-      src: "../../assets/img-categories/image-4.svg",
-    },
-
-    {
-      src: "../../assets/img-categories/image-5.svg",
-    },
-
-    {
-      src: "../../assets/img-categories/image-6.svg",
-    },
-    {
-      src: "../../assets/img-categories/image-7.svg",
-    },
-    {
-      src: "../../assets/img-categories/image-8.svg",
-    },
-    {
-      src: "../../assets/img-categories/image-9.svg",
-    }
-  ];
-
   // Fill the slider with all the categories in the "categories" array
-  function populateSlider() {
-    categories.forEach((image) => {
-      // Clone the initial categories thats included in the html, then replace the image with a different one
-      const newMovie = document.getElementById("categorie0");
-      let clone = newMovie.cloneNode(true);
-      let img = clone.querySelector("img");
-      img.src = image.src;
+  
+  async function populateSlider() {
+      const newCategorie = document.getElementById("categorie");
+      const data = await fetch("../../src/categories.json")
+        .then(res => res.json())
+        console.log(data)
 
-      slider.insertBefore(
-        clone,
-        slider.childNodes[slider.childNodes.length - 1]
-      );
-    });
+     newCategorie.innerHTML = data.map((item) => 
+            `<a href="#">
+              <img
+                  src=${item.src} alt="">
+              <h2>${item.name}</h2>
+              <h4>${item.inventary} Items</h4>
+            </a>`
+     )
   }
 
   populateSlider();
-  populateSlider();
 
-  // delete the initial categories in the html
-  const initialMovie = document.getElementById("categorie0");
-  initialMovie.remove();
 
   // Scroll Left button
   btnLeft.addEventListener("click", (e) => {
