@@ -2,71 +2,85 @@
     {
         "name": "Peach",
         "inventary": 20,
-        "src": "../assets/img-categories/image-3.svg"
+        "src": "../assets/img-categories/image-3.svg",
+        "class": "peach"
     },
     {
         "name": "Vegetables",
         "inventary": 220,
-        "src": "../assets/img-categories/image-4.svg"
+        "src": "../assets/img-categories/image-4.svg",
+        "class": "vegetables"
     },
     {
         "name": "Strawberry",
         "inventary": 10,
-        "src": "../assets/img-categories/image-5.svg"
+        "src": "../assets/img-categories/image-5.svg",
+        "class": "strawberry"
     },
     {
         "name": "Apple",
         "inventary": 40,
-        "src": "../assets/img-categories/image-6.svg"
+        "src": "../assets/img-categories/image-6.svg",
+        "class": "apple"
     },
     {
         "name": "Orange",
         "inventary": 23,
-        "src": "../assets/img-categories/image-7.svg"
+        "src": "../assets/img-categories/image-7.svg",
+        "class": "orange"
     },
     {
         "name": "Potato",
         "inventary": 3,
-        "src": "../assets/img-categories/image-8.svg"
+        "src": "../assets/img-categories/image-8.svg",
+        "class": "potato"
     },
     {
         "name": "Carrot",
         "inventary": 9,
-        "src": "../assets/img-categories/image-9.svg"
+        "src": "../assets/img-categories/image-9.svg",
+        "class": "carrot"
     },
     {
         "name": "Peach",
         "inventary": 20,
-        "src": "../assets/img-categories/image-3.svg"
+        "src": "../assets/img-categories/image-3.svg",
+        "class": "peach"
     },
     {
         "name": "Vegetables",
         "inventary": 220,
-        "src": "../assets/img-categories/image-4.svg"
+        "src": "../assets/img-categories/image-4.svg",
+        "class": "vegetable"
     },
     {
         "name": "Strawberry",
         "inventary": 10,
-        "src": "../assets/img-categories/image-5.svg"
+        "src": "../assets/img-categories/image-5.svg",
+        "class": "strawberry"
     },
     {
         "name": "Apple",
         "inventary": 40,
-        "src": "../assets/img-categories/image-6.svg"
+        "src": "../assets/img-categories/image-6.svg",
+        "class": "apple"
     },
     {
         "name": "Orange",
         "inventary": 23,
-        "src": "../assets/img-categories/image-7.svg"
+        "src": "../assets/img-categories/image-7.svg",
+        "class": "orange"
     },
     {
         "name": "Potato",
         "inventary": 3,
-        "src": "../assets/img-categories/image-8.svg"
+        "src": "../assets/img-categories/image-8.svg",
+        "class": "potato"
     },
     {
         "name": "Carrot",
         "inventary": 9,
-        "src": "../assets/img-categories/image-9.svg"
+        "src": "../assets/img-categories/image-9.svg",
+        "class": "carrot"
     }
 ]

@@ -24,7 +24,6 @@ export default function Carousel() {
     const btnLeft = document.getElementById("moveLeftCategorie");
     const btnRight = document.getElementById("moveRightCategorie");
 
-    let baseSliderWidth = slider.offsetWidth;
     let activeIndex = 0; // the current page on the slider
 
     // Fill the slider with all the categories in the "categories" array
@@ -35,7 +34,7 @@ export default function Carousel() {
           .then(res => res.json())
 
       newCategorie.innerHTML = data.map((item) => 
-              `<a href="#">
+              `<a href="#" class=${item.class}>
                 <img
                     src=${item.src} alt="">
                 <h2>${item.name}</h2>
