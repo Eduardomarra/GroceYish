@@ -1,0 +1,183 @@
+.container-featured-carrousel {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.carrousel-featured {
+    width: 100%;
+    position: relative;
+    padding: 5rem 0;
+}
+
+.title-featured {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 3rem;
+}
+.title-featured h1 {
+    font-weight: 600;
+    font-size: var(--font-intermedium);
+    line-height: var(--line-intermedium);
+    color: var(--blue-300);
+
+}
+.title-featured .btn-featured button {
+    font-weight: 500;
+    font-size: var(--font-medium);
+    line-height: var(--line-medium);
+    color: var(--blue-300);
+    background: transparent;
+    margin-left: 2rem;
+}
+.title-featured .btn-featured button.active {
+    color: var(--base-green);
+}
+
+/*
+*
+* THE SLIDER CONTAINER
+*
+*********************************/
+
+.slider-featured {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 100%;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    white-space: nowrap;
+    position: relative;
+    padding: 2rem 0 3rem 0;
+}
+.featured {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+}
+
+/*
+*
+* featured ELEMENTS!
+*
+*********************************/
+.card-product {
+    width: 22rem;
+    border: 1px solid rgba(173, 173, 173, 0.25);
+    transition: all 0.5s;
+}
+.card-product:hover {
+    transform: scale(1.05);
+}
+.img-featured {
+    max-width: 21rem;
+    max-height: 15rem;
+}
+.img-featured img{
+    width: 100%;
+    height: 100%;
+}
+.card-product .description {
+    padding: 1rem;
+}
+.card-info h4 {
+    font-weight: 400;
+    font-size: var(--font-small);
+    line-height: var(--line-small);
+    color: var(--gray);
+} 
+.card-info h3 {
+    font-weight: 600;
+    font-size: var(--font-medium);
+    line-height: var(--line-medium);
+    color: var(--blue-300);
+}
+.card-rating {
+    margin: 1.5rem 0;
+}
+.card-rating h4 {
+    font-weight: 400;
+    font-size: var(--font-small);
+    line-height: var(--line-small);
+    color: var(--gray);
+}
+.card-rating h4 span {
+    color: var(--base-green);
+}
+.card-price {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.price {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 0.5rem;
+}
+.price h3 {
+    font-weight: 600;
+    font-size: var(--font-medium);
+    line-height: var(--line-medium);
+    color: var(--base-green);
+}
+.price h4 {
+    font-weight: 500;
+    font-size: var(--font-xsmall);
+    line-height: var(--line-xsmall);
+    text-decoration-line: line-through;
+    color: var(--gray);
+}
+.card-price button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 500;
+    font-size: var(--font-xsmall);
+    line-height: var(--line-xsmall);
+    color: var(--base-green);
+    background-color: var(--green-bg-opacity);
+    padding: 1rem 2rem;
+    margin-left: 2rem;
+}
+.card-price button img {
+    width: 1.5rem;
+    height: 1.5rem;
+    margin-right: 0.5rem;
+}
+
+/*
+*
+* BUTTONS
+*
+*********************************/
+.btn-nav-featured {
+    width: 4rem;
+    height: 4rem;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    outline: none;
+    border: none;
+    border-radius: 50%;
+    z-index: 5;
+}
+.btn-nav-featured .fa-arrow-left, .btn-nav-featured .fa-arrow-right {
+    color: var(--blue-300);
+    font-size: 2.4rem;
+}
+.btn-nav-featured .fa-arrow-left:hover, .btn-nav-featured .fa-arrow-right:hover {
+    transform: scale(1.2);
+}
+
+#moveLeftFeatured {
+    left: 5%;
+}
+
+#moveRightFeatured {
+    right: 5%;
+}

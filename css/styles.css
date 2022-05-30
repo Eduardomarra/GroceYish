@@ -2,7 +2,8 @@
 @import "./module/header/header-top.css";
 @import "./module/header/header-bottom.css";
 @import "./module/main.css";
-@import "./module/carousel.css";
+@import "./module/categories-carousel.css";
+@import "./module/featured-carousel.css";
 
 
 
@@ -13,4 +14,5 @@
 @import "./module/responsive/header-top-res.css";
 @import "./module/responsive/header-bottom-res.css";
 @import "./module/responsive/main-res.css";
-@import "./module/responsive/carousel-res.css";
+@import "./module/responsive/categories-carousel-res.css";
+@import "./module/responsive/featured-carousel-res.css";
