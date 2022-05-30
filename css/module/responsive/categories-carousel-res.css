@@ -7,11 +7,11 @@
         max-width: 85%;
         margin: 0 auto;
     }
-    #moveLeftCategories {
+    #moveLeftCategorie {
         left: 1%;
     }
     
-    #moveRightCategories {
+    #moveRightCategorie {
         right: 1%;
     }
 }
