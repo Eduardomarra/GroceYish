@@ -1,0 +1,106 @@
+.banner {
+    max-width: 1200px;
+    margin: 3rem auto;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2rem;
+}
+.delivery, .organic {
+    position: relative;
+    display: grid;
+    grid-template-columns: 1fr 200px;
+    padding: 3rem 4rem;
+    background-color: var(--yellow-bg-opacity);
+    background: url("../../assets/img-banner/bg-banner.svg");
+    object-fit: cover;
+    object-position: center;
+    height: 30rem;
+}
+.wrapper-title,
+.wrapper-image {
+    z-index: 3;
+}
+.wrapper-title .free-delivery, .wrapper-title .off-cash {
+    width: 11rem;
+    font-weight: 500;
+    font-size: var(--font-small);
+    line-height: var(--line-small);
+    letter-spacing: 0.1rem;
+    color: var(--white);
+    padding: 1rem;
+    border-radius: 3px;
+    transition: all 0.3s;
+}
+.wrapper-title .free-delivery:hover,
+.wrapper-title .off-cash:hover {
+    filter: brightness(0.9);
+}
+.wrapper-title .free-delivery {
+    background: var(--btn-orange);
+}
+.wrapper-title .off-cash {
+    background: var(--base-green);
+}
+.title-banner {
+    padding: 3rem 0;
+}
+.title-banner h1 {
+    font-weight: 600;
+    font-size: 2.8rem;
+    line-height: 3rem;
+    color: var(--blue-300);
+    margin-bottom: 1rem;
+}
+.title-banner h3 {
+    font-weight: 500;
+    font-size: var(--font-xsmall);
+    line-height: var(--line-xsmall);
+    letter-spacing: 0.08rem;
+    color: var(--gray-500);
+    max-width: 25rem;
+}
+.wrapper-title .shop-now,
+.wrapper-title .order-now {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 1rem;
+    padding: 2rem;
+    font-weight: 600;
+    font-size: var(--font-medium);
+    line-height: var(--line-medium);
+    color: var(--white);
+    background: var(--base-green);
+    border-radius: 3px;
+    transition: all 0.3s;
+}
+.wrapper-title .shop-now:hover,
+.wrapper-title .order-now:hover {
+    filter: brightness(0.9);
+}
+.wrapper-image {
+    height: 100%;
+}
+.wrapper-image img{
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  height: 100%;
+}
+.wrapper-image .organic-img {
+    bottom: -20px;
+}
+.glass-delivery,
+.glass-organic {
+    position: absolute;
+    inset: 0;
+    z-index: 2;
+    width: 100%;
+    height: 100%;
+}
+.glass-delivery {
+    background-color: var(--yellow-bg-opacity);
+}
+.glass-organic {
+    background-color: var(--green-bg-opacity);
+}
