@@ -1,0 +1,321 @@
+.carrousel-daily {
+    width: 100%;
+    position: relative;
+    margin: 10rem 0;
+}
+.container-daily-carrousel,
+.wrapper-title-daily {
+    max-width: 1200px;
+    margin: 5rem auto;
+}
+.container-daily-carrousel {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.wrapper-title-daily {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.title-daily {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 3rem;
+}
+.title-daily h1 {
+    font-weight: 600;
+    font-size: var(--font-intermedium);
+    line-height: var(--line-intermedium);
+    color: var(--blue-300);
+}
+.title-daily .btn-daily button {
+    font-weight: 500;
+    font-size: var(--font-medium);
+    line-height: var(--line-medium);
+    color: var(--blue-300);
+    background: transparent;
+    margin-left: 2rem;
+}
+.title-daily .btn-daily button.active {
+    color: var(--base-green);
+}
+.counter {
+    display: flex;
+    justify-content: space-between;
+    gap: 1.5rem;
+    font-weight: 500;
+    font-size: var(--font-medium);
+    line-height: var(--line-medium);
+    color: var(--white);
+    background: var(--tomato);
+    padding: 1rem 2rem;
+    border-radius: 3px;
+}
+.wrapper-counter {
+    display: flex;
+    justify-content: space-between;
+}
+
+/*
+*
+* BUTTONS
+*
+*********************************/
+.btn-nav-daily {
+    width: 4rem;
+    height: 4rem;
+    outline: none;
+    border: none;
+    border-radius: 50%;
+    z-index: 5;
+}
+.btn-nav-daily .fa-arrow-left, .btn-nav-daily .fa-arrow-right {
+    color: var(--blue-300);
+    font-size: 2.4rem;
+}
+.btn-nav-daily .fa-arrow-left:hover, .btn-nav-daily .fa-arrow-right:hover {
+    transform: scale(1.2);
+}
+#moveLeftDaily {
+    margin-right: 2rem;
+}
+
+/*
+*
+* THE SLIDER CONTAINER
+*
+*********************************/
+
+.slider-daily {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 80%;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    white-space: nowrap;
+    position: relative;
+    padding: 2rem 0 3rem 0;
+}
+.daily {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+}
+
+/*
+*
+* daily ELEMENTS!
+*
+*********************************/
+
+.card-daily {
+    width: 23rem;
+    border: 1px solid var(--border-cards);
+    border-radius: 3px;
+    transition: all 0.5s;
+}
+.card-daily:hover {
+    transform: scale(1.05);
+}
+.image-daily {
+    position: relative;
+    width: 100%;
+}
+.image-daily img {
+    border-radius: 3px 3px 0px 0px;
+}
+.image-daily span.save,
+.image-daily span.best-deal {
+    position: absolute;
+    top: 0;
+    left: 0;
+    font-weight: 500;
+    font-size: var(--font-small);
+    line-height: var(--line-small);
+    padding: 0.6rem 1rem;
+    border-radius: 3px 0px 3px 0px;
+}
+.image-daily span.save {
+    color: var(--white);
+    background: var(--btn-orange);
+}
+.image-daily span.best-deal {
+    color: var(--base-green);
+    background: var(--light-green);
+}
+.group-title-daily {
+    padding: 1rem;
+}
+.title-card-daily h4 {
+    font-weight: 400;
+    font-size: var(--font-small);
+    line-height: var(--line-small);
+    color: var(--gray);
+}
+.title-card-daily h2,
+.title-card-daily h3 {
+    font-weight: 600;
+    font-size: var(--font-medium);
+    line-height: var(--line-medium);
+    color: var(--blue-300);
+}
+.title-card-daily h2 {
+    margin: 0.5rem 0rem;
+}
+.title-card-daily h3 {
+    margin-top: 0.5rem;
+}
+.title-card-daily h3 span{
+    color: var(--base-green);
+}
+.wrapper-price-daily {
+    margin: 1.5rem 0rem;
+}
+.price-daily {
+    display: flex;
+    justify-content: flex-start;
+    gap: 1rem;
+}
+.wrapper-price-daily .price-daily h3 {
+    font-weight: 600;
+    font-size: var(--font-medium);
+    line-height: var(--line-medium);
+    color: var(--base-green);
+}
+.price-daily h4 {
+    font-weight: 500;
+    font-size: var(--font-xsmall);
+    line-height: var(--line-xsmall);
+    text-decoration-line: line-through;
+    color: var(--gray);
+}
+.sold {
+    background: var(--base-green);
+    height: 5px;
+    border-radius: 5px;
+    margin: 0.5rem 0rem;
+}
+.wrapper-price-daily h3 {
+    font-weight: 500;
+    font-size: var(--font-small);
+    line-height: var(--line-small);
+    color: var(--blue-300);
+}
+.btn-card-daily {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    font-weight: 300;
+    font-size: var(--font-xsmall);
+    line-height: var(--line-xsmall);
+    letter-spacing: 0.08rem;
+    color: #FFFFFF;
+    width: 100%;
+    height: 4rem;
+    background: var(--base-green);
+    border-radius: 3px;
+    transition: all 0.3s;
+}
+.btn-card-daily:hover {
+    filter: brightness(0.9);
+}
+
+/*
+*
+* THE REGISTER NOW
+*
+*********************************/
+
+.register-now {
+    width: 23rem;
+    height: 38.5rem;
+    background: var(--yellow-bg-opacity);
+}
+.register {
+    padding: 1rem;
+    height: 38.5rem;
+}
+.title-register-daily {
+    text-align: center;
+    margin-bottom: 3rem;
+}
+.title-register-daily h2 {
+    font-weight: 700;
+    font-size: var(--font-intermedium);
+    line-height: var(--line-intermedium);
+    color: var(--blue-300);
+    margin-bottom: 1rem;
+}
+.title-register-daily h3 {
+    font-weight: 500;
+    font-size: var(--font-medium);
+    line-height: var(--line-medium);
+    color: var(--blue-300);
+}
+.form-register {
+    margin-bottom: 5rem;
+}
+.form-register form {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: column;
+}
+.form-register form label {
+    font-family: 'Quicksand';
+    font-style: normal;
+    font-weight: 500;
+    font-size: var(--font-small);
+    line-height: var(--line-small);
+    color: var(--black);
+}
+.form-register form input {
+    font-family: 'Quicksand';
+    font-style: normal;
+    font-weight: 500;
+    font-size: var(--font-xsmall);
+    line-height: var(--line-xsmall);
+    color: var(--gray);
+    width: 100%;
+    height: 4rem;
+    border: none;
+    padding-left: 1rem;
+}
+.form-register form input::placeholder {
+    font-family: 'Quicksand';
+    font-style: normal;
+    font-weight: 500;
+    font-size: var(--font-xsmall);
+    line-height: var(--line-xsmall);
+    color: var(--gray);
+}
+.form-register form input:focus::placeholder {
+    opacity: 0;
+}
+.form-register form input:focus {
+    outline: none;
+}
+.form-register form #email {
+    margin-bottom: 1.5rem;
+}
+.btn-register {
+    text-align: center;
+    font-weight: 600;
+    font-size: var(--font-xsmall);
+    line-height: var(--line-xsmall);
+    letter-spacing: 0.08rem;
+    color: #FFFFFF;
+    width: 100%;
+    height: 4rem;
+    background: var(--base-green);
+    border-radius: 3px;
+    transition: all 0.3s;
+}
+.btn-register:hover {
+    filter: brightness(0.9);
+}

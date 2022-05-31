@@ -181,35 +181,7 @@
             <div class="slider-featured" id="mySlider">
                 <div class="featured" id="featured">
                     <div class="card-product">
-                        <div class="img-featured">
-                            <img src="./assets/img-featured/redish.svg" alt="">
-                        </div>
-                        <div class="description">
-                            <div class="description-card">
-                                <div class="card-info">
-                                    <h4>Vegetable</h4>
-                                    <h3>Redish
-                                        <span>500g</span>
-                                    </h3>
-                                </div>
-                                <div class="card-rating">
-                                    <img src="./assets/img-featured/rating.svg" alt="">
-                                    <h4>By
-                                        <span>Mr.Food</span>
-                                    </h4>
-                                </div>
-                            </div>
-                            <div class="card-price">
-                                <div class="price">
-                                    <h3>$2</h3>
-                                    <h4>$3.99</h4>
-                                </div>
-                                <button>
-                                    <img src="./assets/img-featured/li_cart_price.svg" alt="">
-                                    Add
-                                </button>
-                            </div>
-                        </div>
+                        
                     </div>
                 </div>
             </div>
@@ -253,6 +225,84 @@
             <div class="glass-organic"></div>
         </div>
     </section>
+
+    <section class="carrousel-daily">
+        <div class="wrapper-title-daily">
+            <div class="title-daily">
+                <h1>Daily Best Sells</h1>
+                <div class="btn-daily">
+                    <button class="active">Featured</button>
+                    <button>Popular</button>
+                    <button>New</button>
+                </div>
+                <div class="counter">
+                    <h3>Expires in:</h3>
+                    <div class="wrapper-counter">
+                        <div class="hour">10 : </div>
+                        <div class="minute">10 : </div>
+                        <div class="second">10</div>
+                    </div>
+                </div>
+            </div>
+            <div class="wrapper-button-daily">
+                <button type="button" id="moveLeftDaily" class="btn-nav-daily">
+                    <i class="fa fa-arrow-left" aria-hidden="true"></i>
+                </button>
+                <button type="button" id="moveRightDaily" class="btn-nav-daily">
+                    <i class="fa fa-arrow-right" aria-hidden="true"></i>
+                </button>
+            </div>
+        </div>
+        <div class="container-daily-carrousel">
+            <div class="slider-daily" id="mySlider">
+                <div class="daily" id="daily">
+                    <div class="card-daily">
+                        <div class="image-daily">
+                            <img src="./assets/img-daily/coffe.svg" alt="">
+                            <span class="best-deal">Save 10%</span>
+                        </div>
+                        <div class="group-title-daily">
+                            <div class="title-card-daily">
+                                <h4>Caffe & teas</h4>
+                                <h2>Coffe <span>1kg</span></h2>
+                                <img src="./assets/img-daily/rating.svg" alt="">
+                                <h3>By <span>Mr.Food</span></h3>
+                            </div>
+                            <div class="wrapper-price-daily">
+                                <div class="price-daily">
+                                    <h3>$20</h3>
+                                    <h4>$25</h4>
+                                </div>
+                                <div class="sold" style="width: 80%;"></div>
+                                <h3>Sold: <span>20/50</span></h3>
+                            </div>
+                            <button class="btn-card-daily">
+                                <img src="./assets/img-daily/btn-shop-cart-daily.svg" alt="">
+                                Add to cart
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="register-now">
+                <div class="register">
+                    <div class="title-register-daily">
+                        <h2>10% OFF</h2>
+                        <h3>For new member sign up at the first time</h3>
+                    </div>
+                    <div class="form-register">
+                        <form>
+                            <label for="email">E-mail address</label>
+                            <input type="text" id="email" placeholder="eduardomarra@gmail.com">
+                            <label for="senha">Password</label>
+                            <input type="password" id="senha" placeholder="Maximun 8 characters">
+                        </form>
+                    </div>
+                    <button class="btn-register">Register Now</button>
+                </div>
+            </div>
+        </div>
+    </section> 
 
     <script src="https://unpkg.com/scrollreveal@4.0.0/dist/scrollreveal.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.js"

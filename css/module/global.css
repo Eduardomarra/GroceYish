@@ -11,6 +11,7 @@
     --yellow-bg-opacity: #fff5e1d9;
     --green-bg-opacity: #c5ead9c7;;
     --search-bg-header: #F3F3F3;
+    --border-cards: #adadad40;
 
     /*Categories*/
 
@@ -23,7 +24,7 @@
 
     /*Fonts*/
 
-    --quicksand: 'Quicksand', sans-serif;
+    --quicksand: 'Quicksand';
 
     /*Font-size*/
 

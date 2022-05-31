@@ -5,10 +5,7 @@
 @import "./module/categories-carousel.css";
 @import "./module/featured-carousel.css";
 @import "./module/banner.css";
-
-
-
-
+@import "./module/daily-carousel.css";
 
 
 
@@ -18,3 +15,4 @@
 @import "./module/responsive/categories-carousel-res.css";
 @import "./module/responsive/featured-carousel-res.css";
 @import "./module/responsive/banner-res.css";
+@import "./module/responsive/daily-carousel-res.css";

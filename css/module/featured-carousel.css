@@ -67,7 +67,7 @@
 *********************************/
 .card-product {
     width: 22rem;
-    border: 1px solid rgba(173, 173, 173, 0.25);
+    border: 1px solid var(--border-cards);
     transition: all 0.5s;
 }
 .card-product:hover {

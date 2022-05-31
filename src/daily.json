@@ -1,0 +1,98 @@
+[
+    {
+        "src": "../assets/img-daily/coffe.svg",
+        "classBestDeal": "save",
+        "textSpan": "Save 10%",
+        "subTitle": "Caffe & teas",
+        "title": "Coffe",
+        "weight": "1kg",
+        "price": "$25",
+        "promotion": "$20",
+        "width": "80%",
+        "sold": "20/50"
+    },
+    {
+        "src": "../assets/img-daily/sausage.svg",
+        "classBestDeal": "best-deal",
+        "textSpan": "Best deal",
+        "subTitle": "Meat",
+        "title": "Halal Sausage",
+        "weight": "350g",
+        "price": "$10",
+        "promotion": "$4",
+        "width": "50%",
+        "sold": "7/20"
+    },
+    {
+        "src": "../assets/img-daily/green-tea.svg",
+        "classBestDeal": "save",
+        "textSpan": "Save 4%",
+        "subTitle": "Coffe & teas",
+        "title": "Green Tea",
+        "weight": "250g",
+        "price": "$7",
+        "promotion": "$3",
+        "width": "90%",
+        "sold": "32/50"
+    },
+    {
+        "src": "../assets/img-daily/onion.svg",
+        "classBestDeal": "save",
+        "textSpan": "Save 8%",
+        "subTitle": "Vegetables",
+        "title": "Onion",
+        "weight": "1kg",
+        "price": "$2",
+        "promotion": "$0.50",
+        "width": "10%",
+        "sold": "2/10"
+    },
+    {
+        "src": "../assets/img-daily/coffe.svg",
+        "classBestDeal": "save",
+        "textSpan": "Save 10%",
+        "subTitle": "Caffe & teas",
+        "title": "Coffe",
+        "weight": "1kg",
+        "price": "$25",
+        "promotion": "$20",
+        "width": "80%",
+        "sold": "20/50"
+    },
+    {
+        "src": "../assets/img-daily/sausage.svg",
+        "classBestDeal": "best-deal",
+        "textSpan": "Best deal",
+        "subTitle": "Meat",
+        "title": "Halal Sausage",
+        "weight": "350g",
+        "price": "$10",
+        "promotion": "$4",
+        "width": "50%",
+        "sold": "7/20"
+    },
+    {
+        "src": "../assets/img-daily/green-tea.svg",
+        "classBestDeal": "save",
+        "textSpan": "Save 4%",
+        "subTitle": "Coffe & teas",
+        "title": "Green Tea",
+        "weight": "250g",
+        "price": "$7",
+        "promotion": "$3",
+        "width": "90%",
+        "sold": "32/50"
+    },
+    {
+        "src": "../assets/img-daily/onion.svg",
+        "classBestDeal": "save",
+        "textSpan": "Save 8%",
+        "subTitle": "Vegetables",
+        "title": "Onion",
+        "weight": "1kg",
+        "price": "$2",
+        "promotion": "$0.50",
+        "width": "10%",
+        "sold": "2/10"
+    }
+]
