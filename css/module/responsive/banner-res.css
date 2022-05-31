@@ -1,0 +1,42 @@
+@media screen and (max-width: 1024px) {
+    .banner {
+        padding: 0 1rem;
+    }
+    .wrapper-image img{
+        z-index: 2;
+      }
+}
+
+@media screen and (max-width: 768px) {
+    .banner {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width: 414px) {
+    .delivery, .organic {
+        width: 100%;
+    }
+    .wrapper-title {
+        z-index: 4;
+        position: absolute;
+        top: 10%;
+        bottom: 0;
+        left: 5%;
+        right: 0;
+    }
+    .wrapper-image img {
+        filter: opacity(0.5);
+    }
+}
+
+@media screen and (max-width: 1024px) {}
+
+@media screen and (max-width: 1024px) {}
+
+@media screen and (max-width: 1024px) {}
+
+@media screen and (max-width: 1024px) {}
