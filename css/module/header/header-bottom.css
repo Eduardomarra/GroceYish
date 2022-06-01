@@ -5,7 +5,19 @@
     flex-wrap: wrap;
     max-width: 1200px;
     margin: 0 auto;
-    padding: 1.6rem 0
+    padding: 1.6rem 0;
+    opacity: 0;
+    animation: showHeaderBottom 0.5s 0.5s ease forwards;
+}
+@keyframes showHeaderBottom {
+    from {
+        transform: translateY(-300px);
+        opacity: 0;
+    }
+    to {
+        transform: translateY(0px);
+        opacity: 1;
+    }
 }
 /*BUTTON*/
 .wrapper-header-bottom button {

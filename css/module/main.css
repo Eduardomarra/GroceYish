@@ -1,6 +1,16 @@
 section.main {
     width: 100%;
     position: relative;
+    animation: showMain 0.5s 0.8s ease forwards;
+    transform: scale(0);
+}
+@keyframes showMain {
+    from {
+        transform: scale(0);
+    }
+    to {
+        transform: scale(1);
+    }
 }
 .container-main {
     max-width: 1200px;

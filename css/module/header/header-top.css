@@ -2,6 +2,7 @@
     max-width: 1200px;
     margin: 0 auto;
     padding: 1.6rem 0;
+    animation: showHeaderTop 0.5s ease;
 }
 .wrapper-header-top {
     max-width: 1200px;
@@ -11,6 +12,14 @@
     justify-content: space-between;
     flex-wrap: wrap;
 }
+@keyframes showHeaderTop {
+    from {
+        transform: translateY(-300px);
+    }
+    to {
+        transform: translateY(0px);
+    }
+}
 /*LOGO*/
 .wrapper-logo {
     display: flex;
@@ -18,6 +27,7 @@
     justify-content: space-between;
 }
 .wrapper-logo img {
+    position: relative;
     width: 4rem;
     height: 4rem;
     margin-right: 1rem;
@@ -186,12 +196,31 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    gap: 0.5rem;
+    gap: 1rem;
 }
 .wrapper-user .img-user {
     width: 4rem;
     height: 4rem;
     transition: all 0.3s;
+    position: relative;
+}
+.wrapper-user .img-user::before {
+    position: absolute;
+    content: "";
+    inset: -10px;
+    border: 5px solid var(--white);
+    border-top-color: var(--btn-orange);
+    border-bottom-color: var(--btn-orange-op);
+    border-radius: 50%;
+    animation: spin 3s linear infinite;
+}
+@keyframes spin {
+    from {
+        transform: rotate(360deg);
+    }
+    to {
+        transform: rotate(0deg);
+    }
 }
 .wrapper-user .img-user:hover {
    transform: scale(1.1);

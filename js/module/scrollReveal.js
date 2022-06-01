@@ -5,7 +5,7 @@ export default function ScrollAnimation(){
     ScrollReveal().reveal('section.carrousel-categories', { delay: 500, duration: 1000, scale: 0});
 
     //SECTION CAROUSEL-FEATURED
-    ScrollReveal().reveal('section.carrousel-featured', { delay: 500, duration: 1000, scale: 0});
+    ScrollReveal().reveal('section.carrousel-featured', { delay: 1000, duration: 1000, scale: 0});
 
     //SECTION BANNER
     ScrollReveal().reveal('section.banner', { delay: 500, duration: 1000, scale: 0});
