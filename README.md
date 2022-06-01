@@ -14,7 +14,7 @@
 
 ---
 
-<a href="" target="_blank">Versão online</a>
+<a href="https://groce-yish.vercel.app/" target="_blank">Versão online</a>
 
 Layout retirado da Cominidade do [Figma](https://www.figma.com/file/6e8YHZoqz42jOOc9Emv9qX/Free-grocery-website-design-Community).
 
