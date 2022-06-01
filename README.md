@@ -6,7 +6,7 @@
     height="auto"
     alt="Homepage do projeto"
     title="Home do blog"
-    src="./groceyish.jpg"
+    src="./groceyish.JPG"
   />
 </div>
 
