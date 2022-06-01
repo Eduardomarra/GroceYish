@@ -57,9 +57,10 @@ footer {
     display: grid;
     grid-template-columns: 500px 1fr;
     margin-top: 7rem;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
 }
 .logo-footer {
-   
+    padding-bottom: 1rem;
 }
 .wrapper-logo-footer {
     display: flex;
