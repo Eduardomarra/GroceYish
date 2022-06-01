@@ -1,0 +1,71 @@
+.shop-app {
+    background-image: url("../../assets/img-main/bg-main.svg");
+    object-fit: contain;
+    object-position: center;
+    position: relative;
+    height: 60rem;
+    padding: 3rem 0;
+}
+.bg-shop {
+    position: absolute;
+    inset: 0;
+    background: var(--green-bg-opacity);
+    z-index: 1;
+}
+.wrapper-shop-app {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
+    position: relative;
+    z-index: 2;
+}
+.wrapper-description-shop {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: column;
+    padding-top: 20%;
+}
+.wrapper-description-shop h1{
+    font-weight: 700;
+    font-size: var(--font-huge);
+    line-height: var(--line-huge);
+    letter-spacing: 0.05rem;
+    color: var(--blue-300);
+}
+.wrapper-description-shop h3{
+    font-weight: 500;
+    font-size: var(--font-large);
+    line-height: var(--line-large);
+    letter-spacing: 0.05rem;
+    color: var(--gray);
+    margin: 2rem 0rem 5rem 0rem;
+}
+.wrapper-image-description {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+}
+.wrapper-image-shop {
+    position: relative;
+}
+.wrapper-image-shop img {
+    max-height: 53rem;
+    max-width: 30rem;
+}
+.wrapper-image-shop .img-two {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 2;
+}
+.wrapper-image-shop .img-one {
+    position: absolute;
+    top: 15px;
+    left: 15%;
+    bottom: 0;
+    z-index: 3;
+}
