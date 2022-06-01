@@ -6,6 +6,7 @@
 @import "./module/featured-carousel.css";
 @import "./module/banner.css";
 @import "./module/daily-carousel.css";
+@import "./module/rating.css";
 
 
 
@@ -16,3 +17,4 @@
 @import "./module/responsive/featured-carousel-res.css";
 @import "./module/responsive/banner-res.css";
 @import "./module/responsive/daily-carousel-res.css";
+@import "./module/responsive/rating-res.css";
