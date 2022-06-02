@@ -65,7 +65,6 @@ export default function Carousel() {
 
 
   // Scroll Right button
-  function handleClickRigthSlider() {
     btnRight.addEventListener("click", (e) => {
       e.preventDefault()
       let movieWidth = document
@@ -91,36 +90,5 @@ export default function Carousel() {
         });
         activeIndex = (activeIndex + 1) % 3;
       }
-    });
-  }
-  function touchstartRigthSlider() {
-    btnRight.addEventListener("click", (e) => {
-      e.preventDefault()
-      let movieWidth = document
-        .querySelector(".categories")
-        .getBoundingClientRect().width;
-      let scrollDistance = movieWidth * 1; // Scroll the length of 6 categories. TODO: make work for mobile because (4 categories/page instead of 6)
-  
-      // if we're on the last page
-      if (activeIndex == 2) {
-        // duplicate all the items in the slider (this is how we make 'looping' slider)
-        populateSlider();
-        slider.scrollBy({
-          top: 0,
-          left: +scrollDistance,
-          behavior: "smooth",
-        });
-        activeIndex = 0;
-      } else {
-        slider.scrollBy({
-          top: 0,
-          left: +scrollDistance,
-          behavior: "smooth",
-        });
-        activeIndex = (activeIndex + 1) % 3;
-      }
-    });
-  }
-  handleClickRigthSlider()
-  touchstartRigthSlider()
+    });  
 }
