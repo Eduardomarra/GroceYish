@@ -48,7 +48,7 @@ export default function Carousel() {
   populateSlider();
 
   // Scroll Left button
-  btnLeft.addEventListener("touchstart", (e) => {
+  btnLeft.addEventListener("click", (e) => {
     e.preventDefault()
     let categorieWidth = document
       .querySelector(".categories")
@@ -65,8 +65,8 @@ export default function Carousel() {
 
 
   // Scroll Right button
-  btnRight.addEventListener("click touchstart", (e) => {
-    if (e.type == "click") {
+  function handleClickRigthSlider() {
+    btnRight.addEventListener("click", (e) => {
       e.preventDefault()
       let movieWidth = document
         .querySelector(".categories")
@@ -91,8 +91,10 @@ export default function Carousel() {
         });
         activeIndex = (activeIndex + 1) % 3;
       }
-    }
-    if (e.type == "touchstart") {
+    });
+  }
+  function touchstartRigthSlider() {
+    btnRight.addEventListener("click", (e) => {
       e.preventDefault()
       let movieWidth = document
         .querySelector(".categories")
@@ -117,6 +119,8 @@ export default function Carousel() {
         });
         activeIndex = (activeIndex + 1) % 3;
       }
-    }
-  });
+    });
+  }
+  handleClickRigthSlider()
+  touchstartRigthSlider()
 }
