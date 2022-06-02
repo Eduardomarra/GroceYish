@@ -65,30 +65,58 @@ export default function Carousel() {
 
 
   // Scroll Right button
-  btnRight.addEventListener("touchstart", (e) => {
-    e.preventDefault()
-    let movieWidth = document
-      .querySelector(".categories")
-      .getBoundingClientRect().width;
-    let scrollDistance = movieWidth * 1; // Scroll the length of 6 categories. TODO: make work for mobile because (4 categories/page instead of 6)
-
-    // if we're on the last page
-    if (activeIndex == 2) {
-      // duplicate all the items in the slider (this is how we make 'looping' slider)
-      populateSlider();
-      slider.scrollBy({
-        top: 0,
-        left: +scrollDistance,
-        behavior: "smooth",
-      });
-      activeIndex = 0;
-    } else {
-      slider.scrollBy({
-        top: 0,
-        left: +scrollDistance,
-        behavior: "smooth",
-      });
-      activeIndex = (activeIndex + 1) % 3;
+  btnRight.addEventListener("click touchstart", (e) => {
+    if (e.type == "click") {
+      e.preventDefault()
+      let movieWidth = document
+        .querySelector(".categories")
+        .getBoundingClientRect().width;
+      let scrollDistance = movieWidth * 1; // Scroll the length of 6 categories. TODO: make work for mobile because (4 categories/page instead of 6)
+  
+      // if we're on the last page
+      if (activeIndex == 2) {
+        // duplicate all the items in the slider (this is how we make 'looping' slider)
+        populateSlider();
+        slider.scrollBy({
+          top: 0,
+          left: +scrollDistance,
+          behavior: "smooth",
+        });
+        activeIndex = 0;
+      } else {
+        slider.scrollBy({
+          top: 0,
+          left: +scrollDistance,
+          behavior: "smooth",
+        });
+        activeIndex = (activeIndex + 1) % 3;
+      }
+    }
+    if (e.type == "touchstart") {
+      e.preventDefault()
+      let movieWidth = document
+        .querySelector(".categories")
+        .getBoundingClientRect().width;
+      let scrollDistance = movieWidth * 1; // Scroll the length of 6 categories. TODO: make work for mobile because (4 categories/page instead of 6)
+  
+      // if we're on the last page
+      if (activeIndex == 2) {
+        // duplicate all the items in the slider (this is how we make 'looping' slider)
+        populateSlider();
+        slider.scrollBy({
+          top: 0,
+          left: +scrollDistance,
+          behavior: "smooth",
+        });
+        activeIndex = 0;
+      } else {
+        slider.scrollBy({
+          top: 0,
+          left: +scrollDistance,
+          behavior: "smooth",
+        });
+        activeIndex = (activeIndex + 1) % 3;
+      }
     }
   });
 }
