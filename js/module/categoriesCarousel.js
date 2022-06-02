@@ -49,6 +49,7 @@ export default function Carousel() {
 
   // Scroll Left button
   btnLeft.addEventListener(["click", "touchstart"], (e) => {
+    e.preventDefault()
     let categorieWidth = document
       .querySelector(".categories")
       .getBoundingClientRect().width;
@@ -65,6 +66,7 @@ export default function Carousel() {
 
   // Scroll Right button
   btnRight.addEventListener(["click", "touchstart"], (e) => {
+    e.preventDefault()
     let movieWidth = document
       .querySelector(".categories")
       .getBoundingClientRect().width;
